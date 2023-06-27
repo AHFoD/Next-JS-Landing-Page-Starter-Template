@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
-import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
@@ -28,18 +27,19 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {/* {'The modern landing page for\n'} */}
+            {'Selamat datang kepada ahli baru\n'}
+            <span className="text-primary-500">gigamax</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
-        button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <a>
-              <Button xl>Download Your Free Theme</Button>
-            </a>
-          </Link>
-        }
+        description={`Nama saya hanif\n saya boleh dhubungi di talian 019-xxxxx`}
+        // button={
+        //   <Link href="https://creativedesignsguru.com/category/nextjs/">
+        //     <a>
+        //       <Button xl>Download Your Free Theme</Button>
+        //     </a>
+        //   </Link>
+        // }
       />
     </Section>
   </Background>
